@@ -152,24 +152,27 @@ Socket.IO exchanges:
   VideoCat/
 │
 ├── Backend/
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── routes/
-│   │   ├── styles/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   │
+│   ├── app/
+│   │   ├── controllers/
+│   │   ├── dbinit/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   └── routes/
+│   ├── index.js
+|   ├── package-lock.json
 │   └── package.json
 │
 ├── Frontend/
-│   ├── socket/
-│   ├── controllers/
-│   ├── routes/
-│   ├── server.js
-│   └── package.json
+│   ├── public/
+│   ├── src/
+│   ├── eslint.config.js
+|   ├── environment.js
+|   ├── index.html
+|   ├── package-lock.json
+|   ├── package.json
+│   ├── README.md
+|   ├──.gitignore
+│   └── vite.config.js
 │
 ├── README.md
 └── .gitignore
